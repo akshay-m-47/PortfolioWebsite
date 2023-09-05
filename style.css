@@ -38,6 +38,13 @@ nav ul li a:hover {
     color: rgb(62, 62, 202);
     font-size: 1.2rem;
 }
+nav .left{
+    padding: 90px;
+}
+nav .right{
+    padding-right: 80px;  
+}
+
 
 .left {
     font-size: 1.5rem;
@@ -229,7 +236,7 @@ li {
         height: unset;
     }
     .secondsection{
-        height: 120vh;
+        height: 150vh;
     }
 
     .text,.desc {
@@ -290,5 +297,11 @@ li {
     }
     .a{
         font-size: 2rem;
+    }
+    nav .left{
+        padding: 0px;
+    }
+    nav .right{
+        padding-right: 0px;  
     }
 }
