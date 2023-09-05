@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akshayportfollio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Akshay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <!-- <li><a href="">Projects</a></li> -->
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+              <div class="a">Hi,my name is<span id="name" class="purple">Akshay</span><br>
+                and i am a professional 
+                <span id="element"></span> </div> 
+           
+                <div class="buttons">
+                    <button onclick="download('Akshay_fresher.pdf','resume.pdf')" class="btn">Download resume</button>
+                    <button class="btn">Visit GitHUB</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="devl.webp" alt="">
+            </div>
+        </section>
+        <section class="secondsection">
+            <span class="purple">What i have done so far</span>
+            <h2>Work Experience</h2>
+
+            <div class="line">
+                <div class="vertical-line">
+                    
+                        <img class="image" src="html.png" alt="">
+                        <div class="text">HTML Devloper TCS <br> (2019-2021)</div>
+                        <div class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, maiores?</div>
+                   
+                </div>
+
+                <div class="vertical-line">
+                   
+                        <img class="image" src="css.png" alt="">
+                        <div class="text">CSS Devloper <br> IBM <br> (2021-2023)</div>
+                        <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, vitae!</div>
+                   
+                </div>
+
+                <div class="vertical-line">
+                    
+                        <img class="image" src="js.png" alt="">
+                        <div class="text">JS Devloper Facebook (2023-2024)</div>
+                        <div class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, minima.</div>
+                  
+                </div>
+
+                <div class="vertical-line">
+                    <img class="image" src="pngwing.com.png" alt="">
+                    <div class="text">React Devloper Google (2024-2025)</div>
+                    <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, illo.</div>
+                </div>
+
+                <div class="vertical-line">
+                    <img class="image" src="node2.png" alt="">
+                    <div class="text">NodeJS Devloper Microsoft (2024-2025)</div>
+                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, vitae.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Desiner', 'Graphics Desiner'],
+            typeSpeed: 40,
+        });
+    </script>
+    <script src="script.js"></script>
+<div class="footer1">
+    <footer>
+        <div class="footer">
+            <div class="first">Akshay's Devloper Portfolio</div>
+            <div class="second">
+                <ul>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Blog</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &#169;akshaysportfolio.co.in | All righgts reserved
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

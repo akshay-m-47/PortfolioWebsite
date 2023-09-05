@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(62, 62, 202);
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(179, 41, 238);
+    /* padding-left: 150px; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* padding-right: 100px; */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: rgb(62, 62, 202);
+    font-size: 1.2rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 57px; */
+    align-items: center;
+}
+
+.firstsection div {
+    width: 50%;
+
+}
+
+.leftsection {
+    font-size: 2rem;
+    margin: 60px;
+}
+
+.leftsection .buttons {
+    padding: 15px;
+}
+
+.leftsection .btn {
+    padding: 8px;
+    background: rgb(179, 41, 238);
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightsection {
+    margin: 10px;
+    padding-right: 20px;
+}
+
+.rightsection img {
+    width: 70%;
+
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.secondsection {
+    margin: 21px 0px 0px 130px;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: blueviolet;
+    height: 1px;
+    margin: 20px 40px;
+}
+
+.secondsection .line {
+    background-color: white;
+    height: 2px;
+    width: 80vw;
+    margin: 70px 0;
+    display: flex;
+}
+
+.secondsection .vertical-line {
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 100px;
+}
+
+.image {
+    width: 23px;
+    position: relative;
+    top: -35px;
+}
+
+.text {
+    position: relative;
+    top: 30px;
+    width: 130px;
+}
+
+.desc {
+    position: relative;
+    top: 45px;
+    /* width: 130px; */
+    color: black;
+    font-size: 15px;
+}
+
+footer {
+    background-color: rgb(130, 10, 243);
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    padding: 30px 123px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
+}
+
+#element {
+    color: blueviolet;
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    min-height: 100px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.navbranding {
+    font-size: 2rem;
+}
+
+.navlink {
+    transition: 0.7s ease;
+}
+
+.navlink:hover {
+    color: aqua;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(253, 253, 253);
+}
+.leftsection, .a{
+    width: 80%;
+   
+}
+
+
+@media screen and (max-width:700px) {
+    .firstsection {
+        /* flex-wrap: wrap; */
+        flex-direction: column-reverse;
+    }
+
+    .line {
+        flex-direction: column;
+    }
+
+    .secondsection .vertical-line {
+        height: unset;
+    }
+    .secondsection{
+        height: 120vh;
+    }
+
+    .text,.desc {
+        left: 45px;
+    }
+
+    .secondsection .line {
+        width: 80vw;
+        margin: 0 -100px;
+    }
+
+    .secondsection .vertical-line {
+        margin: 0px 40px;
+    }
+
+    .vertical-line img {
+        top: 70px;
+        right: 10px;
+    }
+
+    .leftsection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-left: 25px; */
+    }
+
+    .purple {
+        margin-left: -40px;
+    }
+
+    h2 {
+        margin-left: -50px;
+    }
+
+    #name {
+        margin-left: 45px;
+    }
+
+    .rightsection img {
+        margin-left: -30px;
+        margin-top: 50px;
+        width: 250px
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+    }
+   
+    nav ul li {
+        list-style: none;
+        margin: 0 5px;
+    }
+    .a{
+        font-size: 2rem;
+    }
+}
